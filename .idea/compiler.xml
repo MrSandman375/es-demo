@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="es-api" />
-        <module name="es-demo" />
         <module name="es-jd" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="es-demo" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
